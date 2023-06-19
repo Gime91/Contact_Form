@@ -1,0 +1,6 @@
+<div class="d-flex justify-content-center">
+{{ form_start(form, { 'attr': {'class': 'text-center'} }) }}
+    {{ form_widget(form, { 'attr': {'class': 'mb-3'} }) }}
+    <button class="btn btn-success">{{ button_label|default('Küldés') }}</button>
+{{ form_end(form) }}
+</div>
